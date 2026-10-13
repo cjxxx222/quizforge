@@ -1,0 +1,37 @@
+[project]
+name = "quizforge"
+version = "0.1.0"
+description = "PDF 题库抽取与智能刷题系统：题库 PDF 进，结构化题库 + 抽题练习出"
+requires-python = ">=3.12"
+dependencies = [
+    "pdfplumber>=0.11",
+    "pydantic>=2.6",
+    "openai>=1.30",
+]
+
+[project.optional-dependencies]
+ui = [
+    "streamlit>=1.36",
+]
+dev = [
+    "pytest>=8.2",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+quizforge = "quizforge.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

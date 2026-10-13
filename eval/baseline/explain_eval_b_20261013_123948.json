@@ -1,0 +1,11 @@
+{
+  "questions": 5,
+  "grounded_rate": 1.0,
+  "citation_coverage": 1.0,
+  "whitelist_hit_rate": 0.556,
+  "tier_distribution": {
+    "tier1": 0,
+    "tier2": 10,
+    "tier3": 8
+  }
+}

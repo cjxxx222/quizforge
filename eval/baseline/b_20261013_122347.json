@@ -1,0 +1,20 @@
+{
+  "bank_id": "b_20261013_122347",
+  "source_file": "<已脱敏>",
+  "total_numbered_blocks": 136,
+  "imported": 131,
+  "quarantined": 5,
+  "split_completeness": 0.9632,
+  "rule_direct_ratio": 0.9847,
+  "llm_rescued": 2,
+  "number_gaps": [
+    "单选: 缺 [7]"
+  ],
+  "empty_pages": [],
+  "quarantine_reasons": {
+    "与 第6题 重复": 1,
+    "题干末尾未找到答案括号": 1,
+    "选项键不连续: ['A', 'C', 'D']": 1,
+    "判断题未找到 √/×（含 X）": 2
+  }
+}

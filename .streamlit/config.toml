@@ -1,0 +1,12 @@
+# Streamlit 主题：干净的学习工具配色（靛蓝主色 + 浅灰分层背景）
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F6FB"
+textColor = "#1B2130"
+borderColor = "#E5E7F0"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

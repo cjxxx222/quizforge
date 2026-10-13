@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 本地数据（题库原文、数据库、快照——含版权内容，绝不入库）
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+
+# 密钥
+.env
+.streamlit/secrets.toml
+
+# 系统
+.DS_Store
+Thumbs.db
+~$*.docx
